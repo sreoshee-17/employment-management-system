@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    outline: none;
+}
+body{
+    min-height:100vh;
+}
+h1{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+h1, h2{
+    color: #abcbf5;
+}
+.side-menu{
+    position:fixed;
+    background:#022a5f;
+    width: 20vw;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+.brand-name{
+    height:10vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.side-menu li{
+    font-size:24px;
+    padding: 10px 40px;
+    color:#82ade4;
+    display:flex;
+    align-items:center;
+}
+.side-menu li:hover{
+    background:white;
+    color:#82ade4;
+    text-align:center;
+}
+.heading{
+    text-decoration: none;
+    color:#82ade4;
+}
+.search-box{
+    position:absolute;
+    top: 5%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    background:#022a5f;
+    height: 40px;
+    border-radius: 40px;
+    padding:10px;
+    color: #82ade4;
+}
+.search-btn{
+    color:#abcbf5;
+    font-display:initial;
+    float:right;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    font-weight:bold;
+}
+.search-txt{
+    border:none;
+    background:none;
+    outline:none;
+    padding: 0px;
+    float:left;
+    color:#abcbf5;
+    font-size: 16px;
+    transition: 0.5s; 
+    line-height: 20px;
+    width: 0px;
+    justify-content: center;
+}
+.search-box:hover>.search-txt{
+    width: 220px;
+    padding: 0 6px;
+}
+.content{
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    margin-top: 10vh;
+    min-height: 90vh;
+}
+.cards{
+    outline: none;
+    border: none;
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #022a5f;
+    border-radius: 30px;
+}
+.card h3{
+    color: #abcbf5;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+}
+.card h1{
+    font-size: 30px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+.content-1{
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    margin-top: 10vh;
+    min-height: 90vh;
+    border: none;
+    outline: none;
+}
+.cards-1{
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #022a5f;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+.card-1 h3{
+    color: #abcbf5;
+    font-weight: 600;
+    font-size: 24px;
+}
+.popup-box{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select:none;
+    width: 400px;
+    height: 150px;
+    background:#022a5f;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+}
+.popup-box p{
+    color:#82ade4;
+    font-weight: bold;
+    font-size: 24px;
+}
+ .popup-box .btns{
+    margin: 40px 0 0 0;
+}
+.btn1, .btn2{
+    background: #82ade4;
+    color: #022a5f;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    justify-items: center;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    top: 20%;
+    cursor: pointer;
+}
+.btn1:hover{
+    transition: .5s;
+    background: white;
+}
+.btn2:hover{
+    transition: .5s;
+    background: white;
+}

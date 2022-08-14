@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Out</title>
+    <style>
+        .popup-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select:none;
+    width: 400px;
+    height: 150px;
+    background:#022a5f;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.popup-box p{
+    color:#82ade4;
+    font-weight: bold;
+    font-size: 24px;
+}
+ .popup-box .btns{
+    margin: 40px 0 0 0;
+}
+.btns .btn1, .btns .btn2{
+    background: #82ade4;
+    color: #022a5f;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    justify-items: center;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+.btn1:hover{
+    transition: .5s;
+    background: white;
+}
+.btn2:hover{
+    transition: .5s;
+    background: white;
+}
+    </style>
+</head>
+<body>
+    <div class="popup-box">
+            <p>Do you want to delete this entry?</p>
+            <div class="btns">
+            <a href="/index.html" class="btn1">LogOut</a>
+            <a href="/dash.html" class="btn2">Cancel</a>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

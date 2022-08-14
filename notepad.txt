@@ -1,0 +1,72 @@
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(background.jpg)
+
+light-blue:- #abcbf5;
+deep-blue:- #022a5f;
+sky-blue:- #82ade4;
+
+box-shadow: 0 0 20px 9px #abcbf5
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+https://media.istockphoto.com/photos/dark-blue-stained-grungy-background-or-texture-picture-id1132593892?b=1&k=20&m=1132593892&s=170667a&w=0&h=YLC33uz4UHjZFBS1tRVOTNq-2VW6dlx5hh0Q2nC0L7g=
+
+header .logo{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+<div class="popup-box">
+            <p>Do you want to log out?</p>
+            <div class="btns">
+                <a href="" class="btn1">Log Out</a>
+                <a href="" class="btn2">Cancel</a>
+            </div>
+        </div>
+
+.popup-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select:none;
+    width: 400px;
+    height: 150px;
+    background:#022a5f;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.popup-box p{
+    color:#82ade4;
+    font-weight: bold;
+    font-size: 24px;
+}
+ .popup-box .btns{
+    margin: 40px 0 0 0;
+}
+.btns .btn1, .btns .btn2{
+    background: #82ade4;
+    color: #022a5f;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    justify-items: center;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+.btn1:hover{
+    transition: .5s;
+    background: white;
+}
+.btn2:hover{
+    transition: .5s;
+    background: white;
+}

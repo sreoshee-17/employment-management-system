@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/style_login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+    
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">&nbsp; Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">&nbsp; &nbsp; Register</button>
+            </div>
+            <div class="social-icons">
+                <img src="./google.jpg">
+                <img src="/fb.jpg">
+                <img src="/gmail.jpg">
+            </div>
+            <form id="login" class="input-group mt-3">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box">
+                <span>Remember Me</span>
+                <a href="/dash.html" class="submit-btn">Login</a>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box">
+                <span>I agree to the above information</span>
+                <a href="/dash.html" class="submit-btn">Register</a>
+            </form>
+       </div>
+    </div>
+    <script>
+        var x =document.getElementById("login");
+        var y =document.getElementById("register");
+        var z= document.getElementById("btn");
+        function register(){
+            x.style.left= "-300px";
+            y.style.left= "20px";
+            z.style.left= "110px";
+        }
+        function login(){
+            x.style.left= "20px";
+            y.style.left= "450px";
+            z.style.left= "0px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("https://media.istockphoto.com/photos/dark-blue-stained-grungy-background-or-texture-picture-id1132593892?b=1&k=20&m=1132593892&s=170667a&w=0&h=YLC33uz4UHjZFBS1tRVOTNq-2VW6dlx5hh0Q2nC0L7g=");
+    background-size: cover;
+    background-position: center;
+    color: #82ade4;
+    position: absolute;
+} 
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+.content .info h2{
+    color: #82ade4;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.content .info p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.content .login-btn{
+    color: #abcbf5;
+}
+.content .login-btn{
+    color: #022a5f;
+    background: #82ade4;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
