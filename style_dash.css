@@ -5,6 +5,7 @@
     font-family: "Poppins", sans-serif;
     border: none;
     outline: none;
+    resize: none;
 }
 body{
     min-height:100vh;
@@ -87,106 +88,51 @@ h1, h2{
     width: 220px;
     padding: 0 6px;
 }
-.content{
-    border: none;
-    outline: none;
-    position: absolute;
-    top: 10%;
-    left: 30%;
-    margin-top: 10vh;
-    min-height: 90vh;
-}
-.cards{
-    outline: none;
-    border: none;
-    padding: 40px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    background: #022a5f;
-    border-radius: 30px;
-}
-.card h3{
-    color: #abcbf5;
-    font-weight: 600;
-    font-size: 24px;
-    text-decoration: none;
-}
-.card h1{
-    font-size: 30px;
-    font-weight: 600;
-    border: none;
-    outline: none;
-}
 .content-1{
     position: absolute;
+    left: 30%;
     top: 10%;
-    right: 25%;
     margin-top: 10vh;
     min-height: 90vh;
-    border: none;
-    outline: none;
 }
 .cards-1{
     padding: 40px 40px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    background: #022a5f;
-    outline: none;
     border: none;
+    outline: none;
+    background: #022a5f;
     border-radius: 30px;
 }
 .card-1 h3{
     color: #abcbf5;
     font-weight: 600;
     font-size: 24px;
-}
-.popup-box{
-    position: absolute;
-    display: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    user-select:none;
-    width: 400px;
-    height: 150px;
-    background:#022a5f;
-    text-align: center;
-    align-items: center;
-    padding: 20px;
-    border-radius: 10px;
-    display: none;
-}
-.popup-box p{
-    color:#82ade4;
-    font-weight: bold;
-    font-size: 24px;
-}
- .popup-box .btns{
-    margin: 40px 0 0 0;
-}
-.btn1, .btn2{
-    background: #82ade4;
-    color: #022a5f;
-    font-size: 20px;
-    padding: 10px 15px;
-    border-radius: 30px;
     text-decoration: none;
-    justify-items: center;
-    position: relative;
-    text-align: center;
-    font-weight: bold;
-    top: 20%;
-    cursor: pointer;
 }
-.btn1:hover{
-    transition: .5s;
-    background: white;
+.content-2{
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    margin-top: 10vh;
+    min-height: 90vh;
 }
-.btn2:hover{
-    transition: .5s;
-    background: white;
+.cards-2{
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: none;
+    outline: none;
+    background: #022a5f;
+    border-radius: 30px;
+}
+.card-2 h3{
+    color: #abcbf5;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
 }
