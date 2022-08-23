@@ -31,8 +31,8 @@ It is a management system that helps to manage employees and also the different 
 
 
 ##  Features
-1. A login/register form where the user can register
-2. A dashboard which displays the number of employees and jobs.
-3. In Employees or Job Pages, a search bar is present where user can saerch for a particular employee.
-4. Add details, edit details or delete details of an employee
-5. User can log out and login again. 
+* A login/register form where the user can register
+* A dashboard which displays the number of employees and jobs.
+* In Employees or Job Pages, a search bar is present where user can saerch for a particular employee.
+* Add details, edit details or delete details of an employee
+* User can log out and login again. 
